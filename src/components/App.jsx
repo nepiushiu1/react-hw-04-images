@@ -36,7 +36,7 @@ export const App = () => {
   };
 
   const loadMore = () => {
-    setPage(page + 1);
+    setPage(setState => setState + 1);
   };
 
   const getLargeImg = largeImageURL => {
